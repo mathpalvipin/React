@@ -54,11 +54,16 @@
 //     </div>
 //  </div>
 
+
+// now for fetching it from node_module we have to use import
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 const parent = React.createElement(
     "div",
     { id: "parent" },
     [ React.createElement("div", { id: "child" }, [    /// put child in araay if have multiple children
-        React.createElement("h1", {}, "i am tag1 "),
+        React.createElement("h1", {}, "i am tag1 , edit it  "),
         React.createElement("h1", {}, "i am tag2 "),
       ]),
       React.createElement("div", { id: "child2" }, [    /// put child in araay if have multiple children

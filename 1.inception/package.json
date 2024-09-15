@@ -5,7 +5,8 @@
   "main": "App.js",
   "scripts": {
     "test": "jest",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "start" : "parcel index.html"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,8 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "browserslist":[
+    "last 2 versions "
+  ]
 }

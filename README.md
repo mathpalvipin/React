@@ -36,6 +36,8 @@ npm install react react-dom
 - Tree shaking  - remove unused code
 - different dev and prod build
 - refresh server on change 
+- Transpile the code (with the help of babel) - convert JSX to javascript to understand  by JS engine
+
 
 ## production build
 ```
